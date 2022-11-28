@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Around The World</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn (content delivery network) link  -->
+    <!-- font awesome mempunyai banyak ikon yg bsa digunakan -->
+    <!-- menggunakan ikon font awesome dg menyajikan dr font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <!-- icon garis titik 3  -->
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#popular">popular</a>
+        <!-- <a href="#services">services</a> -->
+        <a href="#gallery">gallery</a>
+        <a href="#team">team</a>
+        <!-- <a href="#contact">contact</a> -->
+    </nav>
+
+    <!-- ikon bisa dibuat dg tag <i> disertai kelas fa (font-awesome) 
+        wajib ada disetiap pembuatan ikon -->
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>rekomendasi tempat wisata terbaru dan populer di dunia</p>
+        <!-- <a href="#" class="btn">discover more</a> -->
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <h1 class="heading">
+        <span>P</span>
+        <span>O</span>
+        <span>P</span>
+        <span>U</span>
+        <span>L</span>
+        <span>A</span>
+        <span>R</span>
+    </h1>
+
+    <section id = "popular" class = "py-4">
+        <h2 class = "lg-title">Tempat Wisata Populer di Dunia</h2>
+
+        <div class = "popular-row">
+            <div class = "popular-item shadow">
+                <img src = "images/popular-1.jpg" alt = "">
+                <div>
+                    <span>Eiffel Tower, Paris</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-2.jpg" alt = "">
+                <div>
+                    <span>Machu Picchu, Peru</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-3.jpg" alt = "">
+                <div>
+                    <span>Acropolis, Athens</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-4.jpg" alt = "">
+                <div>
+                    <span>Bali, Indonesia</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-5.jpg" alt = "">
+                <div>
+                    <span>Dubai, United Arab Emirates</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-6.jpg" alt = "">
+                <div>
+                    <span>Bhutan</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-7.jpg" alt = "">
+                <div>
+                    <span>Havana, Cuba</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+
+            <div class = "popular-item shadow">
+                <img src = "images/popular-8.jpg" alt = "">
+                <div>
+                    <span>Moskva, Russia</span>
+                    <!-- <ul class = "rating flex">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star-half-alt"></i></li>
+                        <li>&nbsp;400 reviews</li>
+                    </ul>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- popular section ends -->
+
+<!-- services section starts  -->
+
+<!-- <section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div> -->
+
+    <!-- </div>
+
+</section> -->
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pantai.jpeg" alt="">
+            <div class="content">
+                <h3>Pantai Whiteheaven, Australia</h3>
+                <p>Pantai ini memiliki air laut dengan warna biru muda yang bersih, saking jernih airnya bisa dilihat dasar lautnya dengan kasat mata</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gunung.jpeg" alt="">
+            <div class="content">
+                <h3>Gunung Everest, Himalaya</h3>
+                <p>Gunung Everest adalah gunung tertinggi didunia (jika diukur dari permukaan laut). Rabung puncaknya menandakan perbatasan antara Nepal dan Tibet</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/sungai.jpeg" alt="">
+            <div class="content">
+                <h3>Sungai Irrawaddy, Burma</h3>
+                <p>Sungai Irrawaddy terletak di Myanmar, memiliki panjang hingga 2.000 kilometer. Sepanjang sungai ini terdapat keindahan berbagai bentuk candi.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/airterjun.jpeg" alt="">
+            <div class="content">
+                <h3>Air Terjun Havasu Falls</h3>
+                <p>Air terjun Havasu Falls adalah air terjun yang paling banyak difoto di Grand Canyon. Air terjun ini jatuh ke arah bebatuan berwarna merah, kemudian mengalir menuju ke perairan berwarna turquoise.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/danau.jpeg" alt="">
+            <div class="content">
+                <h3>Danau Plitvice, Kroasia</h3>
+                <p>Danau indah ini menjadi situs warisan dunia UNESCO. Dengan air danau yang jernih dan indah berwarna batu turqoise (pirus), dialiri serangkaian air terjun kecil membuat siapun akan berdecak kagum.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/hutan.jpeg" alt="">
+            <div class="content">
+                <h3>Black Forest, Jerman</h3>
+                <p>Black Forest adalah areal hutan yang luas di negara bagian Baden-Wurttemberg dibarat daya jerman. hutan ini dikelilingi oleh Lembah Rhein dari bagian barat sampai selatan.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="team" id="team">
+
+    <h1 class="heading">
+        <span>t</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+    </h1>
+
+    <div class="swiper-container team-slider">
+        <div class="box">
+            <img src="images/pict3.jpeg" alt="">
+            <h3>Aprilia Tri Widiya</h3>
+        </div>
+        <div class="box">
+            <img src="images/pict2.jpg" alt="">
+            <h3>Maylani Ambar</h3>
+        </div>
+        <div class="box">
+            <img src="images/pict1.jpg" alt="">
+            <h3>Netania Indi</h3>
+        </div>
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<!-- <section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nama anda">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="nomor anda">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section> -->
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Pembuatan Web ini sebagai wujud Tugas Akhir Mata Kuliah Pengembangan Aplikasi Web</p>
+        </div>
+        <!-- <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">popular</a> -->
+            <!-- <a href="#">services</a> -->
+            <!-- <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div> -->
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Travel World </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
